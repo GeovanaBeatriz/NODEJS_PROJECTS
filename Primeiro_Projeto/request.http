@@ -1,0 +1,30 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Caneta lilás",
+    "price": 3
+}
+
+###
+
+GET http://localhost:3000/products
+
+###
+
+GET http://localhost:3000/products/ 
+
+###
+
+PUT http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Caderno lilás",
+    "price": 4
+}
+
+###
+
+DELETE http://localhost:3000/products
+
